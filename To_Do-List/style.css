@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* Body */
+body {
+  width: 100%;
+  background: linear-gradient(to bottom, #ffb2cb 0%, #ff7f7f 100%);
+  overflow: hidden;
+  user-select: none;
+ height: 100vh;
+}
+
+/* Main Container */
+.main-container {
+  margin: 5% auto;
+  width: 90%;
+  height: 80%;
+  background-color: #fff;
+  overflow: scroll;
+  overflow-x: hidden;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+/* Header */
+header {
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+  padding: 5px;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+/* Input Div */
+.input-field {
+  margin-top: 5px;
+}
+
+/* Input Field */
+.input-field input {
+  height: 100%;
+  font-size: 1rem;
+  border: 2px solid #ff4b87;
+  color: black;
+  outline: none;
+}
+
+button {
+  width: 60px;
+  height: 100%;
+  font-size: 20px;
+  margin-left: 5px;
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #ff4b87;
+  color: black;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Update Button */
+#update-Btn {
+  width: 80px;
+  height: 100%;
+  font-size: 19px;
+  margin-top: 8px;
+  text-align: center;
+  background-color: #ff4b87;
+  cursor: pointer;
+  display: none;
+  user-select: none;
+}
+/* List Div */
+.div {
+  background-color: #ff4b87;
+  width: 90%;
+  height: auto;
+  user-select: none;
+  margin-top: 20px;
+}
+
+/* Ul List */
+ul {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style: none;
+  font-size: 25px;
+  color: black;
+  width: 100%;
+}
+
+/* list Items */
+li {
+  display: flex;
+  user-select: none;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:0px 10px;
+}
+
+li div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li div button{
+  margin-right: 13px;
+  height: 100%;
+  font-size: 2xrem;
+  text-align: center;
+  background-color: #ff4b87;
+  user-select: none;
+  width: fit-content;
+}
